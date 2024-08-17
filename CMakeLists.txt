@@ -25,11 +25,14 @@ add_executable(30dayMakeCppServer_day01_client
 add_executable(30dayMakeCppServer_day01_server
         code/day01/server.cpp
 )
-#
-#        code/day02/client.cpp
-#        code/day02/server.cpp
-#        code/day02/util.cpp
-#        code/day02/util.h
+add_executable(30dayMakeCppServer_day02_client
+        code/day02/client.cpp
+        code/day02/util.cpp
+)
+add_executable(30dayMakeCppServer_day02_server
+        code/day02/server.cpp
+        code/day02/util.cpp
+)
 #        code/day03/client.cpp
 #        code/day03/server.cpp
 #        code/day03/util.cpp
