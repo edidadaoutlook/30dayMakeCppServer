@@ -57,7 +57,7 @@ if ("${CLANG_TIDY_BIN}" STREQUAL "CLANG_TIDY_BIN-NOTFOUND")
 else ()
     # Output compile_commands.json
     set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
-    message(STATUS "Pine/main found clang-fidy at ${CLANG_TIDY_BIN}")
+    message(STATUS "Pine/main found clang-tidy at ${CLANG_TIDY_BIN}")
 endif ()
 
 # cpplint
