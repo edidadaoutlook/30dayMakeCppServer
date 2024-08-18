@@ -33,20 +33,29 @@ add_executable(30dayMakeCppServer_day02_server
         code/day02/server.cpp
         code/day02/util.cpp
 )
-#        code/day03/client.cpp
-#        code/day03/server.cpp
-#        code/day03/util.cpp
-#        code/day03/util.h
-#        code/day04/client.cpp
-#        code/day04/Epoll.cpp
-#        code/day04/Epoll.h
-#        code/day04/InetAddress.cpp
-#        code/day04/InetAddress.h
-#        code/day04/server.cpp
-#        code/day04/Socket.cpp
-#        code/day04/Socket.h
-#        code/day04/util.cpp
-#        code/day04/util.h
+
+add_executable(30dayMakeCppServer_day03_client
+        code/day03/client.cpp
+        code/day03/util.cpp
+)
+
+add_executable(30dayMakeCppServer_day03_server
+        code/day03/server.cpp
+        code/day03/util.cpp
+)
+
+add_executable(30dayMakeCppServer_day04_client
+        code/day04/client.cpp
+        code/day04/util.cpp
+)
+
+add_executable(30dayMakeCppServer_day04_server
+        code/day04/server.cpp
+        code/day04/Epoll.cpp
+        code/day04/InetAddress.cpp
+        code/day04/util.cpp
+)
+
 #        code/day05/Channel.cpp
 #        code/day05/Channel.h
 #        code/day05/client.cpp
